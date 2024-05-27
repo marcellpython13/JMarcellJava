@@ -25,7 +25,7 @@ public class IfStatement {
 //		}
 		
 		/********************** 2. Kétirányú elágazás ********************/
-		// Ha a feltétel hamis, akkor is végez valamit az program, nem csak az igaz
+		// Ha a feltétel hamis, akkor is végez valamit a program, nem csak az igaz
 		// ágnál.
 		// Általános szintakszis:
 //		if (condition) {
