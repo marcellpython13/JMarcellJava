@@ -16,7 +16,7 @@ public class DoWhileIterateExample {
 		// ha igaz, akkor újra belemegy a ciklusmagba és végrehajta azt.
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		// Feladat01: Addig kérek be számokat, amig 0-at nem ad meg a felhasználó!
+		// Feladat01: Addig kérek be számokat, amíg 0-at nem ad meg a felhasználó!
 		System.out.println("Feladat01: Addig kérek be számokat, amig 0-at nem ad meg a felhasználó.");
 		int numberInput;
 		do {
@@ -25,7 +25,7 @@ public class DoWhileIterateExample {
 		}while(numberInput!=0);
 		System.out.println("Kiléptem, mert 0-t adtál meg...");
 
-		// Feladat02: Addig dobok hagyományos 6 oldalu kockával, amig 6-os nem lesz!
+		// Feladat02: Addig dobok hagyományos 6 oldalú kockával, amig 6-os nem lesz!
 		// Jelenítsük meg a dobások eredményét, egymás mellé!
 		Random r = new Random();
 		int randomNumber;
@@ -36,16 +36,16 @@ public class DoWhileIterateExample {
 		System.out.println();
 		System.out.println();
 		
-		//Feladat03: Addig kérek be számokat, amig nem osztható 5-tel és 6-tal maradék nélkül!
+		// Feladat03: Addig kérek be számokat, amíg nem osztható 5-tel és 6-tal maradék nélkül!
 		int numberInput3;
 		do {
-			System.out.println("Kérem adjon meg egy számot (5-tel és 6-tal is m.n osztható, akkor kilép");
+			System.out.println("Kérem adjon meg egy számot (ha 5-tel és 6-tal is m.n. osztható, akkor kilép");
 			numberInput3 = Integer.parseInt(br.readLine());
 		} while (numberInput3%5!=0 || numberInput3%6!=0);
-		System.out.println("Kiléptem, mert 5-tel és 6-tal is osztható számot adtál meg");
+		System.out.println("Kiléptem, mert 5-tel és 6-tal is osztható számot adtál meg.");
 		System.out.println();
 		
-		//Feladat4: Addig kérek be jelszót, amíg a megadott szó nem a pwd!
+		// Feladat4: Addig kérek be jelszót, amíg a megadott szó nem a pwd!
 		System.out.println("Feladat04: Addig kérek be jelszót, amíg a megadott szó nem a pwd");
 		String password;
 		do {
@@ -54,8 +54,6 @@ public class DoWhileIterateExample {
 		} while (!password.equals("pwd"));
 		System.out.println("Kiléptem, mert pwd-t adtál meg :)");
 		
-		// == nem értékre vonatkozik a javaban (más nyelvekben pld Csharp-ban OK)
-		
+		// == nem értékre vonatkozik a Javaban (más nyelvekben, pl. Csharp-ban OK)
 	}
-
 }
