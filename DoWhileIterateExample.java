@@ -22,7 +22,7 @@ public class DoWhileIterateExample {
 		do {
 			System.out.print("Kérek egy számot (0-ra kilépek): ");
 			numberInput = Integer.parseInt(br.readLine());
-		}while(numberInput!=0);
+		} while (numberInput!=0);
 		System.out.println("Kiléptem, mert 0-t adtál meg...");
 
 		// Feladat02: Addig dobok hagyományos 6 oldalú kockával, amig 6-os nem lesz!
