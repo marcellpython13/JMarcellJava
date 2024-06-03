@@ -15,7 +15,6 @@ public class AmigNemZ {
 		do {
 			System.out.println("Kérek egy új karaktert!");
 			character = br.readLine();
-			
 		} while(!character.equals("z"));
 		
 		if (character.equals("z")) {
