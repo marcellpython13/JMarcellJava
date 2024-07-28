@@ -32,14 +32,14 @@ public class Product {
 	}
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-        Product product1 = new Product("számítógép_1", 100000, 10, false);
-        Product product2 = new Product("számítógép_2", 150000, 30, false);
-        productDatas(product1, product2);
-        productWithHigherPrice(product1, product2);
-        grossPriceOfProducts(product1, product2);
-        productAmount(product1, product2);
-        isAvailable(product1, product2);
-        shoppingAmount(product1, product2);
+	        Product product1 = new Product("számítógép_1", 100000, 10, false);
+	        Product product2 = new Product("számítógép_2", 150000, 30, false);
+	        productDatas(product1, product2);
+	        productWithHigherPrice(product1, product2);
+	        grossPriceOfProducts(product1, product2);
+	        productAmount(product1, product2);
+	        isAvailable(product1, product2);
+	        shoppingAmount(product1, product2);
 	}
 	
 	// a. feladat
